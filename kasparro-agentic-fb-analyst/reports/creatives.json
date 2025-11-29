@@ -1,0 +1,18 @@
+[
+  {
+    "campaign_name": "MEN BOLD COLORS DROP",
+    "reason": "Low CTR (0.0050) and below-average ROAS (3.10).",
+    "suggestions": [
+      {
+        "headline": "Color that pops, comfort that stays",
+        "primary_text": "Say goodbye to scratchy waistbands. Our bold-color trunks stay soft and comfortable from morning to midnight.",
+        "cta": "Shop the Bold Collection"
+      },
+      {
+        "headline": "Stop adjusting. Start moving.",
+        "primary_text": "Seamless, tag-free trunks that stay in place—whether you’re on calls, commuting, or at the gym.",
+        "cta": "Try Them Today"
+      }
+    ]
+  }
+]

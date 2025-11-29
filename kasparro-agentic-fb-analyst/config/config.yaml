@@ -1,0 +1,19 @@
+data:
+  path: "data/synthetic_fb_ads_undergarments.csv"
+  use_sample: true
+  sample_frac: 0.3
+  random_seed: 42
+
+metrics:
+  roas_drop_pct_threshold: 0.2     # 20% drop
+  ctr_drop_pct_threshold: 0.15     # 15% drop
+  min_spend_for_analysis: 200.0
+
+output:
+  reports_dir: "reports"
+  logs_dir: "logs"
+
+llm:
+  provider: "openai"
+  model: "gpt-4.1-mini"
+  temperature: 0.2

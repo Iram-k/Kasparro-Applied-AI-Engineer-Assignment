@@ -1,0 +1,25 @@
+
+---
+
+## 🔟 Example `reports/insights.json`
+
+You can generate and save once so it’s in the repo:
+
+```json
+[
+  {
+    "id": "insight_1",
+    "title": "ROAS drop linked to CTR decline in key campaigns",
+    "hypothesis": "ROAS decreased mainly because CTR fell for several high-spend campaigns while CPC increased, indicating creative fatigue.",
+    "evidence": {
+      "description": "ROAS trend shows lower ROAS in the later period; campaign summary indicates reduced CTR and higher CPC for top spenders.",
+      "metrics_used": ["roas", "ctr", "cpc"]
+    },
+    "confidence": 0.8,
+    "validated": true,
+    "validation_details": {
+      "rule": "confidence >= 0.6",
+      "passed": true
+    }
+  }
+]
